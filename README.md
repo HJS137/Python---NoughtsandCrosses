@@ -17,7 +17,7 @@ A noughts and crosses (Tic-Tac-Toe as americans call it) game written in Python 
 ## HOw to play
 1. Open `NoughtsandCrosses.ipynb` and run all cells.
 - Choose a mode; `1` for two players and `2` to face the computer.
--On your turn, type a number 1-9 to claim that cell. A guide at the start shows which number is which cell.
+-On your turn, type a number 1-9 to claim that cell or click in onus section. A guide at the start shows which number is which cell.
 - Get three in a row to win as you would expect. Type `y` if you want to play again.
 -Final statistics are shown when you quit the game.
 - For the clickable version, run the last cell in the bonus section.
@@ -28,3 +28,4 @@ A noughts and crosses (Tic-Tac-Toe as americans call it) game written in Python 
 
 ## Known Limitations
 -The computer only looks one move ahead, so two threats at once can easily beat it - maybe some sort of algorithm could fix this but it is beyond the scope of this mini-project.
+- The computer always starts second.
